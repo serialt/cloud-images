@@ -1,9 +1,0 @@
-# An Ansible playbook that configures a DigitalOcean image
----
-- name: AlmaLinux DigitalOcean Image
-  hosts: default
-  become: true
-
-  roles:
-    - digitalocean_guest
-    - cleanup_vm

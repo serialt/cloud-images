@@ -25,13 +25,5 @@ packer {
       version = ">= 1.1.0"
       source  = "github.com/hashicorp/ansible"
     }
-    amazon = {
-      version = ">= 1.1.0"
-      source  = "github.com/hashicorp/amazon"
-    }
-    digitalocean = {
-      version = ">= 1.0.0"
-      source  = "github.com/hashicorp/digitalocean"
-    }
   }
 }
