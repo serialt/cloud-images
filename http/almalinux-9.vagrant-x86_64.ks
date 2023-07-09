@@ -1,8 +1,8 @@
 # AlmaLinux 9 kickstart file for Vagrant boxes
 
-url --url https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/kickstart/
-repo --name=BaseOS --baseurl=https://repo.almalinux.org/almalinux/9/BaseOS/x86_64/os/
-repo --name=AppStream --baseurl=https://repo.almalinux.org/almalinux/9/AppStream/x86_64/os/
+url --url https://mirror.sjtu.edu.cn/almalinux/9/BaseOS/x86_64/kickstart/
+repo --name=BaseOS --baseurl=https://mirror.sjtu.edu.cn/almalinux/9/BaseOS/x86_64/os/
+repo --name=AppStream --baseurl=https://mirror.sjtu.edu.cn/almalinux/9/AppStream/x86_64/os/
 
 text
 skipx

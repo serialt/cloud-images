@@ -28,18 +28,18 @@ locals {
 }
 
 locals {
-  iso_url_8_x86_64       = "https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/x86_64/AlmaLinux-${var.os_ver_8}-x86_64-boot.iso"
-  iso_checksum_8_x86_64  = "file:https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/x86_64/CHECKSUM"
-  iso_url_8_aarch64      = "https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/aarch64/AlmaLinux-${var.os_ver_8}-aarch64-boot.iso"
-  iso_checksum_8_aarch64 = "file:https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/aarch64/CHECKSUM"
-  iso_url_8_ppc64le      = "https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/ppc64le/AlmaLinux-${var.os_ver_8}-ppc64le-boot.iso"
-  iso_checksum_8_ppc64le = "file:https://repo.almalinux.org/almalinux/${var.os_ver_8}/isos/ppc64le/CHECKSUM"
-  iso_url_9_x86_64       = "https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/x86_64/AlmaLinux-${var.os_ver_9}-x86_64-boot.iso"
-  iso_checksum_9_x86_64  = "file:https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/x86_64/CHECKSUM"
-  iso_url_9_aarch64      = "https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/aarch64/AlmaLinux-${var.os_ver_9}-aarch64-boot.iso"
-  iso_checksum_9_aarch64 = "file:https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/aarch64/CHECKSUM"
-  iso_url_9_ppc64le      = "https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/ppc64le/AlmaLinux-${var.os_ver_9}-ppc64le-boot.iso"
-  iso_checksum_9_ppc64le = "file:https://repo.almalinux.org/almalinux/${var.os_ver_9}/isos/ppc64le/CHECKSUM"
+  iso_url_8_x86_64       = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/x86_64/AlmaLinux-${var.os_ver_8}-x86_64-boot.iso"
+  iso_checksum_8_x86_64  = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/x86_64/CHECKSUM"
+  iso_url_8_aarch64      = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/aarch64/AlmaLinux-${var.os_ver_8}-aarch64-boot.iso"
+  iso_checksum_8_aarch64 = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/aarch64/CHECKSUM"
+  iso_url_8_ppc64le      = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/ppc64le/AlmaLinux-${var.os_ver_8}-ppc64le-boot.iso"
+  iso_checksum_8_ppc64le = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_8}/isos/ppc64le/CHECKSUM"
+  iso_url_9_x86_64       = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/x86_64/AlmaLinux-${var.os_ver_9}-x86_64-boot.iso"
+  iso_checksum_9_x86_64  = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/x86_64/CHECKSUM"
+  iso_url_9_aarch64      = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/aarch64/AlmaLinux-${var.os_ver_9}-aarch64-boot.iso"
+  iso_checksum_9_aarch64 = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/aarch64/CHECKSUM"
+  iso_url_9_ppc64le      = "https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/ppc64le/AlmaLinux-${var.os_ver_9}-ppc64le-boot.iso"
+  iso_checksum_9_ppc64le = "file:https://mirror.sjtu.edu.cn/almalinux/${var.os_ver_9}/isos/ppc64le/CHECKSUM"
 }
 
 # Common

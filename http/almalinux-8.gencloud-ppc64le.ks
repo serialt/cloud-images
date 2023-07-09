@@ -1,8 +1,8 @@
 # AlmaLinux 8 kickstart file for Generic Cloud (OpenStack) ppc64le image
 
-url --url https://repo.almalinux.org/almalinux/8/BaseOS/ppc64le/kickstart/
-repo --name=BaseOS --baseurl=https://repo.almalinux.org/almalinux/8/BaseOS/ppc64le/os/
-repo --name=AppStream --baseurl=https://repo.almalinux.org/almalinux/8/AppStream/ppc64le/os/
+url --url https://mirror.sjtu.edu.cn/almalinux/8/BaseOS/ppc64le/kickstart/
+repo --name=BaseOS --baseurl=https://mirror.sjtu.edu.cn/almalinux/8/BaseOS/ppc64le/os/
+repo --name=AppStream --baseurl=https://mirror.sjtu.edu.cn/almalinux/8/AppStream/ppc64le/os/
 
 text
 skipx
